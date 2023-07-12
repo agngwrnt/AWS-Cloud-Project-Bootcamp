@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AWS_Cloud_Project_Bootcamp_1689147441424-push-trigger-input-set
+  identifier: Build_AWS_Cloud_Project_Bootcamp_1689147441424pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AWS_Cloud_Project_Bootcamp_1689147441424
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
