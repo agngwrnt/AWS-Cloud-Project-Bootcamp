@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AWS_Cloud_Project_Bootcamp_1689147441424-pr-trigger-input-set
+  identifier: Build_AWS_Cloud_Project_Bootcamp_1689147441424prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AWS_Cloud_Project_Bootcamp_1689147441424
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
